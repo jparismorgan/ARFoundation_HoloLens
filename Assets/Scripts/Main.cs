@@ -10,7 +10,7 @@ public class Main : MonoBehaviour
     protected ARCameraManager arCameraManager = null;
     protected ARSession arSession = null;
     //internal static ARAnchorManager arAnchorManager = null;
-    internal static ARReferencePointManager aRReferencePointManager = null;
+    internal static ARAnchorManager aRReferencePointManager = null;
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +19,7 @@ public class Main : MonoBehaviour
         arCameraManager = FindObjectOfType<ARCameraManager>();
         arSession = FindObjectOfType<ARSession>();
         //  arAnchorManager = FindObjectOfType<ARAnchorManager>();
-        aRReferencePointManager = FindObjectOfType<ARReferencePointManager>();
+        aRReferencePointManager = FindObjectOfType<ARAnchorManager>();
     }
 
     // Update is called once per frame
